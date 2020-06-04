@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A5D3FD16-443C-49DD-AAB8-20DD7881EC76}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>JG.Robot.Task</RootNamespace>
-    <AssemblyName>JG.Robot.Task</AssemblyName>
+    <RootNamespace>JG.Facebook.HappyBirthday</RootNamespace>
+    <AssemblyName>JG.Facebook.HappyBirthday</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -68,6 +68,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Behavior.cs" />
+    <Compile Include="Core\Robot.cs" />
+    <Compile Include="Core\Utils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
