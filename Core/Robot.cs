@@ -18,6 +18,7 @@ namespace JG.Facebook.HappyBirthday.Core
                     Login(driver);
                     GoToEventPage(driver);
                     SendMessageToFrient(driver);
+                    LogOut(driver);
                 }
                 catch (Exception ex)
                 {

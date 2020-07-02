@@ -58,7 +58,22 @@ namespace JG.Facebook.HappyBirthday.Core
                 }
                 Console.WriteLine("Sent messages for all friends, let's close the app!");
             }
+
             Thread.Sleep(10000);
+        }
+
+        internal static void LogOut(ChromeDriver driver)
+        {
+            Thread.Sleep(2500);
+            Console.WriteLine("Click on Account Settings");
+            var accountButton = driver.FindElement(By.CssSelector("div[aria-label=\"Account\"]"));
+            accountButton.Click();
+            Thread.Sleep(2500);
+            //Click on Log out button
+            var logout = driver.FindElement(By.XPath("//span[contains(.,'Log Out')]"));
+            logout.Click();
+            Console.WriteLine("Log out Successfull");
+            Thread.Sleep(3000);
         }
     }
 }
