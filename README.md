@@ -1,5 +1,5 @@
 # Facebook Happy Birthday Robot
-It is a simple interactive robot created using the technologies: C# + Windows + Selenium + Google Chrome. It was created to login into Facebook and send birthday messages to your friends automatically.
+It is a simple interactive robot created using the technologies: C# + Windows + Selenium + Google Chrome. It was created to login into Facebook and to send birthday messages to your friends automatically.
 
 <h3>Options</h3>
 Basically you can set 4 keys inside of App.config file:
