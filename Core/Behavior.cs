@@ -25,7 +25,7 @@ namespace JG.Facebook.HappyBirthday.Core
             driver.FindElement(element).SendKeys(FACEBOOK_PASSWORD);
 
             Console.WriteLine("Click on Login button");
-            driver.FindElementById("u_0_b").Click();
+            driver.FindElementByCssSelector("button[type=submit]").Click();
             Console.WriteLine("Login Successfull");
             Thread.Sleep(3000);
         }
